@@ -17,7 +17,7 @@ btnStart.disabled = true; // початковий стан кнопки: вим�
 const options = {
     enableTime: true,
     time_24hr: true,
-    defaultDate: new Date();
+    defaultDate: new Date(),
     minuteIncrement: 1,
     onClose(selectedDates) { // виклик щоразу під часзакриття елемента інтерфейсу
 
