@@ -52,7 +52,7 @@ function convertMs(ms) { // ms - різниця між кінцевою і по�
     // Залишилось годин
     const hours = Math.floor((ms % day) / hour);
     // Залишилось хвилин
-    const minutes = Math.floor(((ms % day) % hour) / minutes);
+    const minutes = Math.floor(((ms % day) % hour) / minute);
     // Залишилось секунд
     const seconds = Math.floor((((ms % day) % hour) % minutes) / second);
 
