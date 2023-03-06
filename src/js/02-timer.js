@@ -63,7 +63,7 @@ function convertMs(ms) { // ms - різниця між кінцевою і по�
 function addLeadingZero(value) {
     
     // приведення до строки та додавання нуля
-    return value.toString().padSatrt(2, '0');
+    return value.toString().padStart(2, '0');
 }
 
     // додаємо слухача події до кнопки СТАРТ

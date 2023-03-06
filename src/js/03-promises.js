@@ -38,7 +38,7 @@ btnCreatePromise.addEventListener('click', e => {
     e.preventDefault(); // відміна оновлення сторінки
 
     let firstDelay = Number(delay.value);   // конвертація затримки в число
-    let firstStep = Number(step.value);   // конвертація кроку в число
+    let delayStep = Number(step.value);   // конвертація кроку в число
 
     // цикл для перебору кількості введень
     for (let i = 0; i < amount.value; i += 1) {
